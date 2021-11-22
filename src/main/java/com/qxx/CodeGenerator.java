@@ -67,7 +67,7 @@ public class CodeGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(null);
-        pc.setParent("com.markerhub");
+        pc.setParent("com.qxx");
         mpg.setPackageInfo(pc);
 
         // 自定义配置

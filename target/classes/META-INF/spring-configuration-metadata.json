@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "qxx.jwt",
+      "type": "com.qxx.util.JwtUtils",
+      "sourceType": "com.qxx.util.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "qxx.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.qxx.util.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "qxx.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.qxx.util.JwtUtils"
+    },
+    {
+      "name": "qxx.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.qxx.util.JwtUtils"
+    }
+  ],
+  "hints": []
+}
